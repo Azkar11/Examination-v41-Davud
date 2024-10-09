@@ -7,10 +7,15 @@
 
 ## Funktioner
 - **Responsiv design**: Webbplatsen anpassar sig automatiskt till olika skärmstorlekar (mobil, surfplatta, dator) för en optimal användarupplevelse.
+
 - **Produktgalleri med Grid**: Produkterna visas i ett responsivt rutnät som förändras beroende på skärmens bredd.
+
 - **Videosektion med CTA-knapp**: En bakgrundsvideo med en Call-to-Action-knapp för att uppmuntra användarna att utforska mer.
+
 - **Interaktiva knappar**: Köp-knappar och hovringseffekter på produkterna som förstorar dem och gör upplevelsen mer engagerande.
+
 - **Typografi med `clamp()`**: Textstorlekar justeras dynamiskt beroende på skärmens storlek med hjälp av CSS-funktionen `clamp()`.
+
 - **Semantisk HTML**: Sidan använder korrekta semantiska HTML-taggar som `<header>`, `<nav>`, `<main>`, och `<footer>`, vilket förbättrar både tillgänglighet och SEO.
 
 ## Teknologier som används

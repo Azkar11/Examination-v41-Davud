@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Watch Store - Kundvagn</title>
+</head>
+<body>
+
+    <!-- Header with navigation -->
+    <header>
+        <nav aria-label="Main Navigation" class="navbar">
+            <a href="hemsida.html" class="logo"><img src="rolexlogo.png" alt="Rolex Logo"></a>
+            <ul class="nav-links">
+                <li><a href="hemsida.html">Watches</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1 class="cart-title">Din Kundvagn</h1>
+
+        <section class="cart-container">
+            <div class="cart-item">
+                <img src="blackrolex.png" alt="Rolex Oyster Perpetual" class="cart-item-img">
+                <div class="cart-item-details">
+                    <h2 class="cart-item-title">Rolex Oyster Perpetual</h2>
+                    <p class="cart-item-price">$199.99</p>
+                    <label for="quantity1">Antal:</label>
+                    <input type="number" id="quantity1" class="cart-item-quantity" value="1" min="1">
+                    <button class="remove-button">Ta bort</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="bluerolex.png" alt="Rolex Submariner" class="cart-item-img">
+                <div class="cart-item-details">
+                    <h2 class="cart-item-title">Rolex Submariner</h2>
+                    <p class="cart-item-price">$249.99</p>
+                    <label for="quantity2">Antal:</label>
+                    <input type="number" id="quantity2" class="cart-item-quantity" value="1" min="1">
+                    <button class="remove-button">Ta bort</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Summary Section -->
+        <section class="cart-summary">
+            <h2>Sammanfattning</h2>
+            <p class="summary-item">Subtotal: <span id="subtotal">$449.98</span></p>
+            <p class="summary-item">Frakt: <span id="shipping">$15.00</span></p>
+            <p class="summary-item total">Totalt: <span id="total">$464.98</span></p>
+            <button class="checkout-button">Till kassan</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Watch Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+w
